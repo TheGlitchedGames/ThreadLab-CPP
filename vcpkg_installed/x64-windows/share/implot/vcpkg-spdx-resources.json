@@ -1,0 +1,19 @@
+{
+  "packages": [
+{
+  "SPDXID" : "SPDXRef-resource-0",
+  "checksums" : 
+  [
+    {
+      "algorithm" : "SHA512",
+      "checksumValue" : "cfa6cbf21fe33bbcb41c7808d7cf8dc0be6ab6a951235c661bc37688893be2eca9f9c2b3c699d7a0093b05876f98274cefee2410c7e52d0a9305cdac07ca2e13"
+    }
+  ],
+  "copyrightText" : "NOASSERTION",
+  "downloadLocation" : "git+https://github.com/epezent/implot@v1.0",
+  "licenseConcluded" : "NOASSERTION",
+  "licenseDeclared" : "NOASSERTION",
+  "name" : "epezent/implot"
+}
+  ]
+}

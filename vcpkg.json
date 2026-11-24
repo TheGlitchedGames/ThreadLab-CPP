@@ -1,0 +1,17 @@
+{
+  "name": "threadlab",
+  "version": "2.0.0",
+  "description": "ThreadLab: simulador de productores y consumidores en C++20 con Dear ImGui.",
+  "homepage": "",
+  "license": "MIT",
+  "dependencies": [
+    "glfw3",
+    {
+      "name": "imgui",
+      "features": [ "glfw-binding", "opengl3-binding" ]
+    },
+    "implot",
+    "nlohmann-json",
+    "spdlog"
+  ]
+}

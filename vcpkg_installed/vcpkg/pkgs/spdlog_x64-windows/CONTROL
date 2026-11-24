@@ -1,0 +1,22 @@
+Package: spdlog
+Version: 1.17.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e753b8b7d73df0ea1da66abe0d527bb418039844f4fd197ccc7b846e693f29dc
+Description: Very fast, header-only/compiled, C++ logging library.
+Default-Features: fmt, tz-offset
+
+Package: spdlog
+Feature: fmt
+Depends: fmt
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use fmt library
+
+Package: spdlog
+Feature: tz-offset
+Architecture: x64-windows
+Multi-Arch: same
+Description: Omit %z timezone offset (use on platforms without tm_gmtoff)
